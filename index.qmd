@@ -1,5 +1,5 @@
 ---
-title: "DSAN Course Handbook"
+title: "Data Science and Analytics (DSAN) Handbook"
 author: "Data Science and Analytics Program Staff"
 institute: "Georgetown University"
 listing:
