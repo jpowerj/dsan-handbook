@@ -1,0 +1,9 @@
+/* css styles */
+.sidebar-title {
+    line-height: 1.35rem !important;
+}
+
+.subtitle {
+    font-size: 0.9rem !important;
+    line-height: 80% !important;
+}

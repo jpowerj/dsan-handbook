@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "DSAN Handbook"
+  sidebar:
+    contents:
+      - text: "<i class='bi bi-house-fill pe-1'></i> Home"
+        href: index.qmd
+      - text: "Summer Bootcamp"
+        href: bootcamp.qmd
+      - "---"
+      - section: "Course Pages"
+        contents: "courses/*.qmd"
+        text: "title"
+      - "---"
+      - text: "DSAN Homepage <i class='bi bi-box-arrow-up-right ps-1'></i>"
+        href: "https://analytics.georgetown.edu"
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: true
+    include-in-header:
+      text: "<script src='https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js'></script><script src='/sidebar-custom.js'></script>"
+
+
+

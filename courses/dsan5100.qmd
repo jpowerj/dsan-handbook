@@ -1,0 +1,20 @@
+---
+title: "DSAN 5100: Probabilistic Modeling and Statistical Computing"
+course-code: "DSAN 5100"
+course-name: "Probabilistic Modeling and Statistical Computing"
+categories:
+  - "Core Courses"
+course-type: "Core"
+anly-course-code: "ANLY 511"
+last-offered: "Fall 2023"
+homepage-url: "https://jjacobs.me/dsan5100"
+canvas-url: "https://georgetown.instructure.com/courses/173327"
+offered:
+  - "Fall 2023"
+---
+
+{{< meta course-code >}} is a core DSAN course, usually taken by students during their first year in the program. It was last offered in {{< meta last-offered >}}.
+
+* <a href='{{< meta homepage-url >}}' target='_blank'>Course Homepage</a>
+* <a href='{{< meta canvas-url >}}' target='_blank'>Canvas Page</a>
+* Previous course code: {{< meta anly-course-code >}}

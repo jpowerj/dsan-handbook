@@ -1,0 +1,15 @@
+---
+title: "DSAN 5450: Data Ethics and Policy"
+course-code: "DSAN 5450"
+course-name: "Data Ethics and Policy"
+homepage-url: "https://jjacobs.me/dsan5450"
+categories:
+  - "Elective Courses"
+course-type: "Elective"
+offered:
+  - "Spring 2024"
+---
+
+DSAN 5450 is an elective course, most recently offered in Spring 2024.
+
+* <a href='{{< meta homepage-url >}}' target='_blank'>Course Homepage</a>

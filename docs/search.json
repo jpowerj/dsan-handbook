@@ -1,0 +1,77 @@
+[
+  {
+    "objectID": "courses/dsan5000.html",
+    "href": "courses/dsan5000.html",
+    "title": "DSAN 5000: Data Science and Analytics",
+    "section": "",
+    "text": "DSAN 5000 is a core DSAN course, usually taken by students during their first year in the program. It was last offered in Fall 2023.\n\nCourse Homepage\nCanvas Page\nPrevious course code: ANLY 501",
+    "crumbs": [
+      "Course Pages",
+      "DSAN 5000: Data Science and Analytics"
+    ]
+  },
+  {
+    "objectID": "courses/dsan5500.html",
+    "href": "courses/dsan5500.html",
+    "title": "DSAN 5500: Data Structures, Objects, and Algorithms in Python",
+    "section": "",
+    "text": "DSAN 5500 is an elective course, most recently offered in Spring 2024.\n\nCourse Homepage\nPrevious course code: ANLY 555",
+    "crumbs": [
+      "Course Pages",
+      "DSAN 5500: Data Structures, Objects, and Algorithms in Python"
+    ]
+  },
+  {
+    "objectID": "courses/dsan5450.html",
+    "href": "courses/dsan5450.html",
+    "title": "DSAN 5450: Data Ethics and Policy",
+    "section": "",
+    "text": "DSAN 5450 is an elective course, most recently offered in Spring 2024.\n\nCourse Homepage",
+    "crumbs": [
+      "Course Pages",
+      "DSAN 5450: Data Ethics and Policy"
+    ]
+  },
+  {
+    "objectID": "bootcamp.html",
+    "href": "bootcamp.html",
+    "title": "DSAN Summer Bootcamp",
+    "section": "",
+    "text": "The summer bootcamp is taken by admitted students in the summer before they begin the program, allowing them to become familiar with the foundational tools and concepts that will be used across different courses throughout the program.",
+    "crumbs": [
+      "Summer Bootcamp"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DSAN Course Handbook",
+    "section": "",
+    "text": "Welcome to the Data Science and Analytics (DSAN) Departmental Handbook! This site serves as a centralized hub for finding information on the different courses offered by the department—prerequisites, topics covered, etc.—to help you navigate during your journey through the program.\nYou can browse course offerings in the table below, and use the search bar above the table along with the category selector on the right to narrow down the courses displayed. Click on the heading of a column to sort the table by that column.\n\n\n    \n      \n      \n    \n\n\n\n\n\nCode\n\n\nName\n\n\nType\n\n\n\n\n\n\nDSAN 5000\n\n\nData Science and Analytics\n\n\nCore\n\n\n\n\nDSAN 5100\n\n\nProbabilistic Modeling and Statistical Computing\n\n\nCore\n\n\n\n\nDSAN 5200\n\n\nAdvanced Data Visualization\n\n\nCore\n\n\n\n\nDSAN 5450\n\n\nData Ethics and Policy\n\n\nElective\n\n\n\n\nDSAN 5500\n\n\nData Structures, Objects, and Algorithms in Python\n\n\nElective\n\n\n\n\n\nNo matching items\n\n\nIf you have any questions or concerns about the content in the handbook, feel free to contact us.",
+    "crumbs": [
+      "<i class='bi bi-house-fill pe-1'></i> Home"
+    ]
+  },
+  {
+    "objectID": "courses/dsan5100.html",
+    "href": "courses/dsan5100.html",
+    "title": "DSAN 5100: Probabilistic Modeling and Statistical Computing",
+    "section": "",
+    "text": "DSAN 5100 is a core DSAN course, usually taken by students during their first year in the program. It was last offered in Fall 2023.\n\nCourse Homepage\nCanvas Page\nPrevious course code: ANLY 511",
+    "crumbs": [
+      "Course Pages",
+      "DSAN 5100: Probabilistic Modeling and Statistical Computing"
+    ]
+  },
+  {
+    "objectID": "courses/dsan5200.html",
+    "href": "courses/dsan5200.html",
+    "title": "DSAN 5200: Advanced Data Visualization",
+    "section": "",
+    "text": "DSAN 5200 is a core DSAN course, usually taken by students during their first year in the program. It was last offered in Spring 2024.\n\nCourse Homepage\nCanvas Page\nPrevious course code: ANLY 503",
+    "crumbs": [
+      "Course Pages",
+      "DSAN 5200: Advanced Data Visualization"
+    ]
+  }
+]

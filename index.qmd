@@ -1,0 +1,34 @@
+---
+title: "DSAN Course Handbook"
+author: "Data Science and Analytics Program Staff"
+institute: "Georgetown University"
+listing:
+  id: course-listing
+  categories: true
+  #sort-ui: [course-code,course-name,course-type]
+  filter-ui: true
+  type: table
+  include:
+    categories: "{Core Courses,Elective Courses}"
+  fields: [course-code,course-name,course-type]
+  field-links: [course-name]
+  sort:
+    #- "course-type asc"
+    - "course-code asc"
+  table-hover: true
+  field-display-names:
+    course-code: "Code"
+    course-name: "Name"
+    course-type: "Type"
+  # date-format: full
+  # date-format: "MMMM D"
+---
+
+Welcome to the Data Science and Analytics (DSAN) Departmental Handbook! This site serves as a centralized hub for finding **information on the different courses offered by the department**---prerequisites, topics covered, etc.---to help you navigate during your journey through the program.
+
+You can browse course offerings in the table below, and use the **search bar** above the table along with the **category selector** on the right to narrow down the courses displayed. Click on the heading of a column to **sort** the table by that column.
+
+::: {#course-listing}
+:::
+
+If you have any questions or concerns about the content in the handbook, feel free to <a href='mailto:jj1088@georgetown.edu' target='_blank'>contact us</a>.

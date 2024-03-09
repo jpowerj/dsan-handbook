@@ -1,0 +1,20 @@
+---
+title: "DSAN 5000: Data Science and Analytics"
+course-code: "DSAN 5000"
+course-name: "Data Science and Analytics"
+course-type: "Core"
+categories:
+  - "Core Courses"
+anly-course-code: "ANLY 501"
+last-offered: "Fall 2023"
+homepage-url: "https://jjacobs.me/dsan5000"
+canvas-url: "https://georgetown.instructure.com/courses/173310"
+offered:
+  - "Fall 2023"
+---
+
+{{< meta course-code >}} is a core DSAN course, usually taken by students during their first year in the program. It was last offered in {{< meta last-offered >}}.
+
+* <a href='{{< meta homepage-url >}}' target='_blank'>Course Homepage</a>
+* <a href='{{< meta canvas-url >}}' target='_blank'>Canvas Page</a>
+* Previous course code: {{< meta anly-course-code >}}

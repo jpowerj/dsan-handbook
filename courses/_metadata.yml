@@ -1,0 +1,6 @@
+#title: "{{< meta course-code >}}: {{< meta course-name >}}"
+author: "DSAN Staff"
+institute: "Georgetown University"
+format:
+  html:
+    df-print: kable

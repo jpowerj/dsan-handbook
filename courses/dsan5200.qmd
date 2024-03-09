@@ -1,0 +1,23 @@
+---
+title: "DSAN 5200: Advanced Data Visualization"
+course-code: "DSAN 5200"
+course-name: "Advanced Data Visualization"
+homepage-url: "https://gu-dsan.github.io/5200-spring-2024/"
+canvas-url: "https://georgetown.instructure.com/courses/182993"
+categories:
+  - "Core Courses"
+course-type: "Core"
+course-code-old: "ANLY 503"
+last-offered: "Spring 2024"
+offered:
+  - "Spring 2024"
+format:
+  html:
+    df-print: kable
+---
+
+{{< meta course-code >}} is a core DSAN course, usually taken by students during their first year in the program. It was last offered in {{< meta last-offered >}}.
+
+* <a href='{{< meta homepage-url >}}' target='_blank'>Course Homepage</a>
+* <a href='{{< meta canvas-url >}}' target='_blank'>Canvas Page</a>
+* Previous course code: {{< meta course-code-old >}}
