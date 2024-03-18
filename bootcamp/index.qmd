@@ -1,0 +1,92 @@
+# Required Summer R and Python Bootcamp
+
+## Bootcamp Info Session
+
+Zoom Recording: https://georgetown.zoom.us/rec/share/rwMbDJK9R_QKYzl0QpmBt0tLu_YwvedbkV3X1jb1BS9ONHETUXESIAUgUe5vQyP6.seCGqELI8f5HwDPZ
+
+## About the Bootcamp
+
+The bootcamp is not structured as a traditional "class," but rather as a self-directed learning experience. It is completely asynchronous, allowing you to work at your own pace and convenience. The content provided will guide you through various exercises and challenges in R and Python, enabling you to become proficient in both programming languages.
+Throughout the bootcamp, a team of Teaching Assistants (TAs) will be there to support and guide you every step of the way. We understand that learning advanced programming in R and Python can sometimes be challenging, but you don't have to do it alone. Your assigned TA will be your direct point of contact and will reach out to you via email. They are available to answer any questions you may have, provide assistance with coding, and offer guidance whenever needed. Additionally, the TAs will hold regular office hours and check in with you to ensure you're making progress and to address any concerns you may have. We encourage you to take full advantage of the expertise and support offered by our TAs as they are here to ensure your success in the bootcamp.
+We want to emphasize that your learning and understanding of the materials are of utmost importance to us. In this bootcamp, we have adopted a unique approach where a team of TAs will facilitate your learning journey. Please note that this is not a traditional course with a professor, but rather a self-directed learning experience supported by our dedicated TAs.
+The bootcamp follows a pass/fail grading system, and we want to assure you that while the expectation is to pass each assignment, if you encounter difficulties and do not pass initially, you will have the opportunity to revise and resubmit your work until you achieve a passing grade. Our primary focus is on your growth and mastery of the concepts, so please feel free to seek help from your TAs whenever you don't fully understand or require additional support.
+Remember to submit only code that runs successfully, as we value the practical application of your skills.
+The bootcamp has been carefully developed by three full-time professors: myself, Prof. James Hickman, and Prof. Nakul Padalkar. Additionally, you will have access to extra instructional videos created by our outstanding student TAs.
+If you feel more comfortable with one language over the other, please adapt your focus accordingly. For example, if you excel in R but are a beginner in Python, prioritize completing the R assignments quickly and allocate more time to mastering Python. The same principle applies in reverse. It's crucial to assess your own learning needs and dedicate the necessary time to become proficient in both languages. While this bootcamp serves as a review, you are encouraged to explore additional resources and tutorials if needed.
+The goal of this bootcamp is to ensure that you achieve a good or expert level in both R and Python. When the Fall term begins, it is expected that all students possess a strong command of these programming languages, as they will be utilized in DSAN 5000 and ANLY 5100.
+BOOTCAMP LINK
+
+(Please note that we will be updating this soon, right now the gu domain is not working. But we will update everything before June 6th, especially the Instructions and Lead TA pages)
+https://jfh.georgetown.domains/bootcamp
+Username = GU_student_1
+Password = GU_student_1
+Zoom Recording: https://georgetown.zoom.us/rec/share/rwMbDJK9R_QKYzl0QpmBt0tLu_YwvedbkV3X1jb1BS9ONHETUXESIAUgUe5vQyP6.seCGqELI8f5HwDPZ
+DATES
+The bootcamp officially begins on June 6th 2023, and you can refer to the Boot Camp Schedule Page for specific dates and deadlines. Each week, except for the Extra material, you will have a short assignment to complete. The bootcamp will conclude on August 15th 2023, but the assignment submission deadline is August 1st, 11:59 p.m. Eastern Time (ET).
+Should you have any questions throughout the bootcamp, please feel free to reach out to your TA. They will be available until August 15th, 11:59 p.m. ET to assist you.
+DSAN5000 BOOTCAMP QUIZ
+Once the bootcamp concludes, we highly encourage you to maintain your coding momentum and continue practicing with R and Python. The journey of learning data science and analytics is an ongoing process, and consistent practice will help solidify your skills and deepen your understanding.
+We want you to be well-prepared for the challenges and rigor of our program, so it's important to note that in the first week of the fall semester, we will have an opening quiz in DSAN5000 that will assess your proficiency in the bootcamp material.
+These skills are crucial for your success in our program, and we believe that building a strong foundation through the bootcamp will greatly benefit you as you progress further. Keep coding, keep learning, and embrace the continuous growth and development that comes with mastering R and Python.
+TA INFORMATION
+Should you have any questions throughout the bootcamp, please feel free to reach out to your TA. They will be available until August 15th, 11:59 p.m. ET to assist you.
+Throughout the bootcamp, a team of dedicated DSAN Teaching Assistants (TAs) will be available to assist you. They will not only evaluate your work but also provide insights and answer questions from a student's perspective. Your assigned TA may also host online discussion sessions, and they will notify you directly of the time and date.
+Anthony Moubarak
+am4315@georgetown.edu
+Lead TA
+Corrina Calanoc
+clc317@georgetown.edu
+Lead TA
+Katie Mead
+kam515@georgetown.edu
+Bootcamp Manager
+
+I have personally chosen these TAs from many TA applications because of their exceptional skills, talents, and proficiency in both R and Python. Equally important, I also chose them for their kindness, friendliness, and eagerness to help their fellow students. Rest assured, our TAs are not only highly knowledgeable but also dedicated to creating a supportive and inclusive learning environment.
+They are here to assist you in your academic journey and provide guidance whenever you need it. Feel free to reach out to them for any assistance or clarification you may require—they are here to ensure your success and help you thrive.
+Again, our primary focus is on your growth and mastery of the concepts, so please feel free to seek help from your TAs whenever you don't fully understand or require additional support. Remember to submit only code that runs successfully, as we value the practical application of your skills.
+HOW TO SUBMIT AN ASSIGNMENT
+To submit your assignments, please email them to your assigned TA.
+Please ensure that you submit your deliverables in a ZIP folder with the following format: YOUR_NAME_Assignment_xx (e.g., PURNA_GAMAGE_Assignment_6).
+You can access the bootcamp materials through this link: https://jfh.georgetown.domains/bootcamp
+Username = GU_student_1
+Password = GU_student_1
+Inside each week's folder, you will find a README.doc file that provides specific instructions for that assignment. Remember to package your submission in a ZIP folder.
+Grades are PASS or REDO
+Grades in the bootcamp are either PASS or REDO.
+We want to assure you that if you don't initially succeed in an assignment, you will have the opportunity to redo it and improve your understanding. However, it's important to emphasize that completion of the entire bootcamp and timely submission of assignments are essential for your success in the program.
+The bootcamp is designed to equip you with the necessary knowledge and skills in Python and R, which are vital for daily labs and final capstone projects in every class. The program is rigorous, and a solid grasp of these programming languages is integral to your academic journey. Therefore, we strongly encourage you to actively participate in the bootcamp and submit all assignments to maximize your chances of success in the program.
+We encourage you to enjoy the process and fully engage with R and Python until you feel comfortable and confident in your knowledge and abilities. For R, we recommend using RStudio, and for Python, we suggest using Python3, Anaconda, and VS-Code. However, if you prefer alternative Integrated Development Environments (IDEs), feel free to use them.
+FAQS
+What if I need to be late on a submission?
+Answer: While it is not advised, we understand that unforeseen circumstances may arise. However, please make every effort to complete the bootcamp assignments by August 1st to stay on track.
+Where can I find the name of the TA assigned to me?
+Answer: Your TA will contact you via email.
+Can I finish the bootcamp early?
+Answer: Absolutely! If you feel confident in your R and Python skills before the official end date, you may proceed. The important thing is to ensure that you have a strong foundation in both programming languages.
+I am exceptionally proficient in R. Can I skip those assignments and focus solely on Python?
+Answer: No, we encourage you to complete all the assignments. Your expertise in R will allow you to complete the related assignments more quickly, enabling you to dedicate more time to mastering Python.
+Can I contact the lead TAs if I have any questions?
+Answer: Yes of course! While your first contact should be your own designated TA, you can still contact the lead TAs for any further assistance.
+We hope you have a wonderful time engaging with R and Python during this bootcamp. Remember that coding can be both challenging and rewarding.
+If you have any uncertainties or need assistance throughout the bootcamp, your TAs are here to help. We are dedicated to ensuring your success and learning experience. However, as I have mentioned earlier, while your first contact should be your own designated TA and then the lead TA, if there are some unresovable issues, you are always welcome to email me anytime.
+Once again, welcome to Georgetown University and best of luck with the bootcamp!
+
+
+ORIENTATION, EVENTS, AND WORKSHOPS (MANDATORY)
+
+We will host several welcome events. All events are required for all new students.
+Data Science and Analytics Welcome Orientation
+Friday, August 21, 10.30 am - 1.30pm
+Brunch starts at 10:30am on the Mid Campus Terrace.
+The orientation program starts at 12:30pm in Lohrfink Auditorium.
+Learn about the program, get to know our faculty and staff, meet new and returning students, and have fun!
+Zoom Workshop 1: Graduate Learning, Methods, & Expectations hosted by Dr. Kelly Grady (Associate Director, Interdisciplinary Programs, Georgetown Graduate School of Arts & Sciences)
+Tuesday, August 22, 1-2pm ET
+https://georgetown.zoom.us/j/95408390743
+Workshop 2: Internships, TA, Second-Year Scholarships, and More hosted by Dir. Purna Gamage & Dir. Heather Connor
+Tuesday, August 22, 3-4pm
+https://georgetown.zoom.us/j/94409854741
+ACTIVATE YOUR GEORGETOWN EMAIL ASAP
+
+**If you have not already – get a Georgetown email ASAP and check it every day. Until June 1**, we will use both your personal and your GU email.** After June 1, we will only use your GU email.
+You can find your University NetID and temporary password in your admission letter. Please click on the link provided in the letter to change your password. Georgetown uses Google Apps for email, so once you have changed your password, please review these instructions for signing in to your Georgetown email. Check your Georgetown email every day. This is critical for effective communication.

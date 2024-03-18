@@ -1,28 +1,16 @@
 ---
-title: "Data Science and Analytics (DSAN) Handbook"
 author: "Data Science and Analytics Program Staff"
 institute: "Georgetown University"
-listing:
-  id: course-listing
-  categories: true
-  #sort-ui: [course-code,course-name,course-type]
-  filter-ui: true
-  type: table
-  include:
-    categories: "{Core Courses,Elective Courses}"
-  fields: [course-code,course-name,course-type]
-  field-links: [course-name]
-  sort:
-    #- "course-type asc"
-    - "course-code asc"
-  table-hover: true
-  field-display-names:
-    course-code: "Code"
-    course-name: "Name"
-    course-type: "Type"
-  # date-format: full
-  # date-format: "MMMM D"
 ---
+# Welcome to Georgetown!
+
+It is with great pleasure that we welcome you to the Georgetown University Data Science and Analytics Program! As a new student, you are about to embark on an exciting journey that will shape your future in many ways.
+We want to assure you that our institution is committed to providing you with the best possible learning experience. From the moment you set foot on campus, you will be immersed in a dynamic and diverse community that values academic excellence, innovation, and inclusivity.
+We understand that starting at a new university can be both thrilling and daunting, but we want you to know that we are here to support you every step of the way. Our faculty, staff, and student leaders are dedicated to helping you succeed academically, personally, and professionally. We encourage you to take advantage of the many resources and opportunities available to you, both inside and outside the classroom.
+As a Georgetown student, you will have access to cutting-edge facilities and technologies, as well as a wide range of extracurricular activities and community service programs. We hope that you will take advantage of all that our program (and the campus) has to offer, and that you will make lasting connections with your peers, mentors, and alumni.
+This will be a fun, exciting, challenging, rewarding, and amazing experience – enjoy every minute of it!
+We look forward to seeing you thrive, grow, and make your mark in the world!
+This is a long email so take your time and please read it fully and very carefully – then save it. This email contains A LOT of critical information about the Fall term, required events, Fall registration and class options, important links, MyAccess, GoCards, orientation, housing, transportation, Q&A, and more.
 
 Welcome to the Data Science and Analytics (DSAN) Departmental Handbook! This site serves as a centralized hub for finding **information on the different courses offered by the department**---prerequisites, topics covered, etc.---to help you navigate during your journey through the program.
 

@@ -8,7 +8,7 @@
 
 <meta name="author" content="Data Science and Analytics Program Staff">
 
-<title>DSAN Handbook – Data Science and Analytics (DSAN) Handbook</title>
+<title>DSAN Handbook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<link href="./bootcamp/index.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,66 +68,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-course-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-course-code','listing-course-name','listing-course-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-course-listing'] = new List('listing-course-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script><script src="./sidebar-custom.js"></script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -142,7 +83,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><i class="bi bi-house-fill pe-1"></i> Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome to Georgetown!</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -170,20 +111,19 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><i class="bi bi-house-fill pe-1"></i> Home</span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome to Georgetown!</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bootcamp.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Summer Bootcamp</span></a>
+  <a href="./bootcamp/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Required Summer R and Python Bootcamp</span></span></a>
   </div>
 </li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Course Pages</span></a>
+            <a href="./courses/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">DSAN Course Listings</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -192,56 +132,55 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./courses/dsan5000.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">DSAN 5000: Data Science and Analytics</span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">DSAN 5000: Data Science and Analytics</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./courses/dsan5100.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">DSAN 5100: Probabilistic Modeling and Statistical Computing</span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">DSAN 5100: Probabilistic Modeling and Statistical Computing</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./courses/dsan5200.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">DSAN 5200: Advanced Data Visualization</span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">DSAN 5200: Advanced Data Visualization</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./courses/dsan5450.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">DSAN 5450: Data Ethics and Policy</span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">DSAN 5450: Data Ethics and Policy</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./courses/dsan5500.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">DSAN 5500: Data Structures, Objects, and Algorithms in Python</span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">DSAN 5500: Data Structures, Objects, and Algorithms in Python</span></span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="https://analytics.georgetown.edu" class="sidebar-item-text sidebar-link">
- <span class="menu-text">DSAN Homepage <i class="bi bi-box-arrow-up-right ps-1"></i></span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Core Courses">Core Courses <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Elective Courses">Elective Courses <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#welcome-to-georgetown" id="toc-welcome-to-georgetown" class="nav-link active" data-scroll-target="#welcome-to-georgetown"><span class="header-section-number">1</span> Welcome to Georgetown!</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Science and Analytics (DSAN) Handbook</h1>
+<h1 class="title">DSAN Handbook</h1>
 </div>
 
 
@@ -271,100 +210,18 @@ window.Quarto = {
 </header>
 
 
+<section id="welcome-to-georgetown" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Welcome to Georgetown!</h1>
+<p>It is with great pleasure that we welcome you to the Georgetown University Data Science and Analytics Program! As a new student, you are about to embark on an exciting journey that will shape your future in many ways. We want to assure you that our institution is committed to providing you with the best possible learning experience. From the moment you set foot on campus, you will be immersed in a dynamic and diverse community that values academic excellence, innovation, and inclusivity. We understand that starting at a new university can be both thrilling and daunting, but we want you to know that we are here to support you every step of the way. Our faculty, staff, and student leaders are dedicated to helping you succeed academically, personally, and professionally. We encourage you to take advantage of the many resources and opportunities available to you, both inside and outside the classroom. As a Georgetown student, you will have access to cutting-edge facilities and technologies, as well as a wide range of extracurricular activities and community service programs. We hope that you will take advantage of all that our program (and the campus) has to offer, and that you will make lasting connections with your peers, mentors, and alumni. This will be a fun, exciting, challenging, rewarding, and amazing experience – enjoy every minute of it! We look forward to seeing you thrive, grow, and make your mark in the world! This is a long email so take your time and please read it fully and very carefully – then save it. This email contains A LOT of critical information about the Fall term, required events, Fall registration and class options, important links, MyAccess, GoCards, orientation, housing, transportation, Q&amp;A, and more.</p>
 <p>Welcome to the Data Science and Analytics (DSAN) Departmental Handbook! This site serves as a centralized hub for finding <strong>information on the different courses offered by the department</strong>—prerequisites, topics covered, etc.—to help you navigate during your journey through the program.</p>
 <p>You can browse course offerings in the table below, and use the <strong>search bar</strong> above the table along with the <strong>category selector</strong> on the right to narrow down the courses displayed. Click on the heading of a column to <strong>sort</strong> the table by that column.</p>
-<div id="listing-course-listing" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table table-hover">
-<thead>
-<tr>
-<th>
-Code
-</th>
-<th>
-Name
-</th>
-<th>
-Type
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="Core Courses" data-listing-file-modified-sort="1710016962641" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-course-name-sort="Data Science and Analytics" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-course-code">DSAN 5000</span>
-</td>
-<td>
-<a href="./courses/dsan5000.html" class="course-name listing-course-name">Data Science and Analytics</a>
-</td>
-<td>
-<span class="listing-course-type">Core</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="Core Courses" data-listing-file-modified-sort="1710016753818" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-course-name-sort="Probabilistic Modeling and Statistical Computing" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-course-code">DSAN 5100</span>
-</td>
-<td>
-<a href="./courses/dsan5100.html" class="course-name listing-course-name">Probabilistic Modeling and Statistical Computing</a>
-</td>
-<td>
-<span class="listing-course-type">Core</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="Core Courses" data-listing-file-modified-sort="1710016778445" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-course-name-sort="Advanced Data Visualization" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-course-code">DSAN 5200</span>
-</td>
-<td>
-<a href="./courses/dsan5200.html" class="course-name listing-course-name">Advanced Data Visualization</a>
-</td>
-<td>
-<span class="listing-course-type">Core</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="Elective Courses" data-listing-file-modified-sort="1710016790512" data-listing-reading-time-sort="1" data-listing-word-count-sort="19" data-listing-course-name-sort="Data Ethics and Policy" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-course-code">DSAN 5450</span>
-</td>
-<td>
-<a href="./courses/dsan5450.html" class="course-name listing-course-name">Data Ethics and Policy</a>
-</td>
-<td>
-<span class="listing-course-type">Elective</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="Elective Courses" data-listing-file-modified-sort="1710016819444" data-listing-reading-time-sort="1" data-listing-word-count-sort="30" data-listing-course-name-sort="Data Structures, Objects, and Algorithms in Python" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-course-code">DSAN 5500</span>
-</td>
-<td>
-<a href="./courses/dsan5500.html" class="course-name listing-course-name">Data Structures, Objects, and Algorithms in Python</a>
-</td>
-<td>
-<span class="listing-course-type">Elective</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div id="course-listing">
+
 </div>
 <p>If you have any questions or concerns about the content in the handbook, feel free to <a href="mailto:jj1088@georgetown.edu" target="_blank">contact us</a>.</p>
 
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -776,6 +633,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./bootcamp/index.html" class="pagination-link" aria-label="Required Summer R and Python Bootcamp">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Required Summer R and Python Bootcamp</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

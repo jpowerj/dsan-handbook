@@ -1,0 +1,26 @@
+---
+title: "DSAN Course Listings"
+author: "Data Science and Analytics Program Staff"
+institute: "Georgetown University"
+listing:
+  id: course-listing
+  categories: true
+  #sort-ui: [course-code,course-name,course-type]
+  filter-ui: true
+  type: table
+  include:
+    categories: "{Core Courses,Elective Courses}"
+  fields: [course-code,course-name,course-type]
+  field-links: [course-name]
+  sort:
+    #- "course-type asc"
+    - "course-code asc"
+  table-hover: true
+  field-display-names:
+    course-code: "Code"
+    course-name: "Name"
+    course-type: "Type"
+  # date-format: full
+  # date-format: "MMMM D"
+---
+
