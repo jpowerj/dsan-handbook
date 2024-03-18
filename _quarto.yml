@@ -15,6 +15,15 @@ book:
         - courses/dsan5200.qmd
         - courses/dsan5450.qmd
         - courses/dsan5500.qmd
+    - part: logistics/index.qmd
+      chapters:
+        - logistics/graduation.qmd
+        - logistics/international.qmd
+        - logistics/mentors.qmd
+        - logistics/committees.qmd
+        - logistics/resources.qmd
+        - logistics/housing-transportation.qmd
+        - logistics/taships-internships.qmd
 
 format:
   html:
@@ -23,6 +32,3 @@ format:
     toc: true
     include-in-header:
       text: "<script src='https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js'></script><script src='/sidebar-custom.js'></script>"
-
-
-
